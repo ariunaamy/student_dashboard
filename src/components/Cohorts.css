@@ -1,0 +1,29 @@
+.cohorts h3 {
+    text-align: center;
+}
+
+.cohorts_list {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cohorts_list button {
+    border: none;
+    background: none;
+    color:rgb(0, 117, 243);
+    text-align: left;
+}
+
+
+
+button:hover, li:hover {
+    color: rgb(0, 117, 243);
+    cursor: pointer;
+}
+
+/* hr {
+    width: 300px;
+    height: 2px;
+    background-color: aqua;
+    text-align: left;
+} */

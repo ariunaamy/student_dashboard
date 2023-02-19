@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+
+* {
+    font-size: small;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+h1 {
+    font-size: x-large;
+    color: white;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin: auto;
+    align-content: center;
+}
+
+p, span {
+    font-size: 10px;
+}
+
+
+

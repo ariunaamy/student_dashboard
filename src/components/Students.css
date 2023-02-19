@@ -1,0 +1,34 @@
+img {
+    width: 150px;
+    margin: 20px;
+    margin-right: none;
+}
+
+.card {
+    border: 2px solid  rgb(183, 228, 255);
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: grey 10px; */
+}
+
+.card button, span {
+    text-align: left;
+    border: none;
+    background: none;
+    color:rgb(0, 117, 243);
+}
+
+button:hover {
+    font-size: medium;
+}
+
+.student_info { 
+
+} 
+ 
+
