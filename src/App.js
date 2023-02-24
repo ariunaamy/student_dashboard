@@ -23,7 +23,9 @@ function App() {
         <Cohorts data={studentsData} onClick={handleClick} />
         <Students data={studentsData} studentsInCohort={studentsInCohort} />
       </main>
-      <footer></footer>
+      <footer>
+        <p>designed by <a href="https://github.com/ariunaamy">@ariunaamy</a></p>
+      </footer>
     </div>
   );
 }

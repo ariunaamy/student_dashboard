@@ -89,5 +89,10 @@ label {
     color: white;
   }
 
+  .students_header h3,
+  .students_header p {
+  margin-left: 10%;
+  }
+
 
 

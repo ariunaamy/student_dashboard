@@ -52,4 +52,15 @@ footer {
     background-color: black
 }
 
+footer p,a {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+a:hover {
+    color: rgb(0, 117, 243);
+}
+
 
