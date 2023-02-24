@@ -11,10 +11,11 @@ function App() {
  
   function handleClick(cohort){
    setStudentsInCohort(cohort)
+   console.log(cohort.length)
   }
  
   return (
-    <div>
+    <div className="body">
       <header>
       <h1>Student Dashboard</h1>
       </header>
@@ -22,6 +23,7 @@ function App() {
         <Cohorts data={studentsData} onClick={handleClick} />
         <Students data={studentsData} studentsInCohort={studentsInCohort} />
       </main>
+      <footer></footer>
     </div>
   );
 }

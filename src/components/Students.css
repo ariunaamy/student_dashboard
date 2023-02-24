@@ -1,34 +1,93 @@
 img {
     width: 150px;
     margin: 20px;
-    margin-right: none;
+ 
+    margin-top: 5px;;
+    border: 2px solid rgb(234, 0, 255);
 }
 
 .card {
     border: 2px solid  rgb(183, 228, 255);
-    width: 500px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(255, 255, 255);
+    /* overflow: auto; */
+
     /* box-shadow: grey 10px; */
 }
 
-.card button, span {
+.card:hover {
+    width: 98%;
+    /* height: 40%; */
+}
+
+.general_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card #show_more, span {
     text-align: left;
     border: none;
     background: none;
     color:rgb(0, 117, 243);
+    font-size: 11px;
 }
 
 button:hover {
-    font-size: medium;
+    text-shadow: rgb(155, 250, 199) 1px 0 5px;
 }
 
-.student_info { 
+#onTrackToGraduate {
+    margin-top: 50px;
 
-} 
- 
+}
+
+.all_scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 500px; 
+    margin-left: 20px;
+}
+
+.students label {
+    font-size: 11px;
+}
+
+form {
+    display: block;
+    width: 80px;
+}
+
+label {
+    font-weight: bold;
+    width: 130px;
+    float: left;
+  
+  }
+  label:after { content: ": " }
+
+  fieldset{
+    border: 2px solid rgb(203, 225, 255);
+    width: 520px;
+    margin: 5px;
+  }
+  
+  .students {
+    overflow: auto;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 20px;
+    border: 3px solid rgb(213, 216, 255);
+    height: 700px;
+    width: 600px;
+  }
+
+  .students_header {
+    color: white;
+  }
+
+
 

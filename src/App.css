@@ -8,7 +8,7 @@
 
 header {
     background-color: rgb(0, 0, 0);
-    height: 100px;
+    height: 150px;
     font-family: 'Oswald', sans-serif;
    
 }
@@ -23,16 +23,33 @@ h1 {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
     font-family: 'Roboto', sans-serif;
-    width: 90%;
+    /* height: 960px; */
     margin: auto;
+    padding:  auto;
     align-content: center;
+    overflow: auto;
+    width: 90%; 
+
+    
+}
+
+.body {
+    background-color: rgb(201, 93, 255);  
 }
 
 p, span {
     font-size: 10px;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+footer {
+    height: 100px;
+    background-color: black
+}
 
 
