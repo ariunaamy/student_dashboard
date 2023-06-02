@@ -39,7 +39,7 @@ function Cohorts({ data, onClick }) {
                 </li>
                     {formattedCohortList.map((cohort, index) => {
                         return (
-                            <li><button key={index} onClick={() => onClick(arr[index])}>{cohort}</button></li>
+                            <li key={index}><button  onClick={() => onClick(arr[index])}>{cohort}</button></li>
                         )
                     })}
             </ul>
