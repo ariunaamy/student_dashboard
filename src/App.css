@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap'); */
 
 
 * {
@@ -10,14 +10,26 @@ header {
     background-color: rgb(0, 0, 0);
     height: 150px;
     font-family: 'Oswald', sans-serif;
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    margin-right: 70px;
 }
 
 h1 {
     font-size: x-large;
     color: white;
     margin: auto;
-    padding-top: 30px;
+    margin-left: 50px;
+    padding:0;
     padding-left: 30px;
 }
 
@@ -31,12 +43,12 @@ main {
     align-content: center;
     overflow: auto;
     width: 90%; 
-
-    
+    padding-bottom: 100px; 
+    padding-top: 60px; 
 }
 
 .body {
-    background-color: rgb(201, 93, 255);  
+    background: linear-gradient(#e28b8b, #b7bcf7);
 }
 
 p, span {
